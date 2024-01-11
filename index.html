@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Longos versos longos", de João de Melo</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Longos versos longos", de João de Melo</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-longos-versos-longos/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21124105&authkey=%21ANOgkL6GoJdT_MU&width=700&height=400" alt="&quot;Longos versos longos&quot;, de João de Melo" border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+							<h1 style="color:#308180">Longos Versos Longos</h1>
+							<h2>de João de Melo</h2>
+								<br>
+								<h4>A revelação da arte poética de um grande romancista.</h4>
+								<p style="text-align:left !important"><em>Longos Versos Longos</em> assinala o regresso de João de Melo à poesia, quatro décadas após a publicação do seu primeiro e, até agora, único livro de poemas: <em>Navegação da Terra</em> (1980).<br>
+								<br>
+								Nele encontramos textos de exaltação do tempo e da vida, derivas sobre a angústia e a metafísica, mas também a revisitação apaixonada das tão amadas ilhas dos Açores.<br>
+								<br>
+								Trata-se de uma poética meditada sobre a escrita e a literatura, a efemeridade do ser, a espiritualidade da fé e a perda de Deus. No final desta cadeia temática, o livro propõe-nos alguns poemas trágicos sobre o nosso quotidiano coletivo, um deles em prosa, «Poema às portas de Bagdade», que nos fala dos horrores permanentes (ou repetidos) das guerras do mundo.<br><br><br>
+								</p>
+								<p style="text-align:left !important">Os profetas do mar anunciam-na a partir da sombra.<br>
+								Não pela sua luz. Surge decalcada na bruma, oásis<br>
+								de um outro lugar deserto sobre o mar. Como se<br>
+								de água fosse, e não de areia, a sua alfombra.<br>
+									<br>
+								Ilha. Mais coisa menos coisa, todos nela vivemos<br>
+								à sorte. Divididos entre o proibido e o obrigatório.<br>
+								Sonhamos horizontes. Noutros ventos os lemos.<br>
+								E em sonhos moramos como almas no Purgatório.<br>
+									<br>
+								Está aí não tarda o dia ou a noite da minha morte.<br>
+								Dividirão ao meio as cinzas do corpo: metade delas<br>
+								voltará ao pó da terra de que nasci; a outra metade<br>
+									<br>
+								que a lance a mão de alguém mais ou menos à sorte.<br>
+								Pode ser que o vento e o mar tenham olhos de vê-las,<br>
+									livres e belas, e assim as separem da mortalidade.<br></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="308180">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="João de Melo." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21124106&authkey=%21AEDXBlUtNBUOOoQ&width=280&height=250" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p>
+							<strong>João de Melo</strong> nasceu nos Açores, em 1949, e fez os seus estudos no continente. Licenciou-se em Filologia Românica pela Faculdade de Letras de Lisboa e foi professor nos ensinos secundário e superior. Entre 2001 e 2010, desempenhou o cargo de conselheiro cultural na embaixada de Portugal em Madrid.<br>
+							<br>
+							Autor de mais de vinte livros já publicados (ensaio, antologia, poesia, romance e conto), algumas das suas obras de ficção valeram-lhe vários prémios literários, nacionais e estrangeiros, e foram adaptadas para teatro e televisão, estando traduzidas em Espanha, França, Itália, Holanda, Roménia, Bulgária, Alemanha, Estados Unidos, México e Croácia. O romance <em>Gente Feliz com Lágrimas</em> recebeu os maiores galardões e continua a ser uma referência na sua brilhante carreira literária, que em 2016 foi coroada com a atribuição do Prémio Vergílio Ferreira.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="308180">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Longos versos longos&quot;, de João de Melo." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21124107&authkey=%21AHDIA3OARK8ypBg&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							9789722080965<br>
+							112 páginas<br>
+							13,30€<br>
+							1.ª Edição: Janeiro 2024<br>
+							Poesia<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<h3>Nas Livrarias a 30 de Janeiro</h3>
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
